@@ -1,0 +1,3 @@
+find /etc/*/ -name ".conf"
+mkdir {jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec}{2015,2016,2017,2018}
+echo $((2*3)) | cat > multiply.txt

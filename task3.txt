@@ -1,0 +1,13 @@
+1. sudo groupadd project1
+2. sudo usermod -a -G project1 John
+3. sudo usermod -a -G project1 user01
+4. sudo mkdir /home/project1
+5. sudo chmod -R 777 /home/project1
+6. sudo chown -R John /home/project1
+7. sudo umask -S 0027 /home/project1
+8. full permission for the owner
+9. not the owner
+10. error message
+11. sudo chown -R project1 /home/project1/progit.pdf
+12. user01 has access to project 1
+13. sudo chmod -R ugo+rex/home/project1
